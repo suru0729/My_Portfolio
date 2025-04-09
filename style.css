@@ -1,0 +1,237 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header {
+    background-image: url('21.jpg');
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:first center;
+    align-items:center;
+    text-align: center;
+  }
+
+
+    nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+    align-items: center;
+  }
+  
+  .logo { 
+    margin: 50px 0px 20px 0px;
+  
+    background-size: cover;
+    height: 200px;
+    width: 200Px;
+    /* border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    font-weight: 600;
+    box-shadow: 0 10px 12px rgba(58, 91, 91, 0.984); */
+  }
+  
+  .nav-links {
+    
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    font-size: 1.3rem;
+  }
+  
+  .nav-links a:hover {
+    color: #f5d742;
+  }
+  
+  .header-content h1 {
+    padding-left: 5px;
+    margin-left: 10px;
+    font-size: 3rem;
+  }
+  
+  .header-content span {
+    color: #f5d742;
+  }
+  
+  .header-content p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  .header-content .social-links a {
+    margin: 0rem 0.5rem;
+    color: #ffffff;
+  }
+  .social-links a:hover {
+    color: #f5d742;
+  }
+  
+  .btn {
+    background: #f5d742;
+    color: #000;
+    margin-top: 1cm;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #333;
+    color: #fff;
+  }
+  
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  #about{
+    background-color: darkslategrey;
+    color: #e3e3e3;
+    font-family:cursive;
+    border: 2px solid black;
+    
+  }
+  #about h2 {
+   color: #f5d742;
+    
+  }
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f5d742;
+  }
+  
+  #Skills{
+    background-color: darkslategrey;
+    border: 2px ;
+    border-top: 0px;
+    border-color: black;
+    border-style: solid;
+  }
+  .container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .item_box {
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  #Projects{
+    background-color: darkslategrey;
+    border: 2px ;
+    border-top: 0px;
+    border-color: black;
+    border-style: solid;
+
+  }
+  /* #Projects .Projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+   */
+  /* .Projects-item {
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+    */
+  #Interships{
+    background-color: darkslategrey;
+    border: 2px ;
+    border-top: 0px;
+    border-color: black;
+    border-style: solid;
+
+  }
+  /* #Interships .Interships-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  } */
+  
+  /* .Interships-item {
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+   */
+  #contact{
+    background-color: darkslategrey;
+    border: 2px ;
+    border-top: 0px;
+    border-color: black;
+    border-style: solid;
+
+  }
+  #contact span{
+    color: #ffffff;
+    font-style: italic;
+    font-family:cursive;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    font-family: cursive;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    font-family: cursive;
+    width: 100%;
+  }
+  
+  footer {
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  .B{
+    color: #f5d742;
+  }
+  .header-content h1 {
+    font-family: cursive;
+    padding-left: 2em;
+    margin-left: 10px;
+    font-size: 3rem;
+  }
