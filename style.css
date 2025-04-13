@@ -43,10 +43,6 @@
     background-size: cover;
     height: 200px;
     width: 200Px;
-    /* border: 2px solid rgb(0, 0, 0);
-    border-radius: 50%;
-    font-weight: 600;
-    box-shadow: 0 10px 12px rgba(58, 91, 91, 0.984); */
   }
   
   .nav-links {
@@ -110,12 +106,7 @@
   #about{
     background-color: darkslategrey;
     color: #e3e3e3;
-    font-family:cursive;
     border: 2px solid black;
-    
-  }
-  #about h2 {
-   color: #f5d742;
     
   }
   h2 {
@@ -152,19 +143,6 @@
     border-style: solid;
 
   }
-  /* #Projects .Projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-  }
-   */
-  /* .Projects-item {
-    padding: 1rem;
-    background: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-    */
   #Interships{
     background-color: darkslategrey;
     border: 2px ;
@@ -173,19 +151,6 @@
     border-style: solid;
 
   }
-  /* #Interships .Interships-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-  } */
-  
-  /* .Interships-item {
-    padding: 1rem;
-    background: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-   */
   #contact{
     background-color: darkslategrey;
     border: 2px ;
@@ -193,6 +158,13 @@
     border-color: black;
     border-style: solid;
 
+  }
+  #certification{
+    background-color: darkslategrey;
+    border: 2px ;
+    border-top: 0px;
+    border-color: black;
+    border-style: solid;
   }
   #contact span{
     color: #ffffff;
@@ -230,8 +202,7 @@
     color: #f5d742;
   }
   .header-content h1 {
-    font-family: cursive;
-    padding-left: 2em;
+    padding-left: 3em;
     margin-left: 10px;
     font-size: 3rem;
   }
